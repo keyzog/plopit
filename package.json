@@ -1,7 +1,13 @@
 {
 	"name": "plopit",
-	"private": false,
 	"version": "0.0.1",
+	"description": "A small set of templates for plop with a focus on react development",
+	"repository": "https://github.com/keyzog/plopit.git",
+	"keywords": [
+		"plop",
+		"react templates",
+		"react generator"
+	],
 	"type": "module",
 	"module": "./dist/index.js",
 	"main": "./dist/index.cjs",
