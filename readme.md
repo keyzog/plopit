@@ -2,6 +2,8 @@
 
 **Plopit** provides several templates to simplify and speed up the development process:
 
+![demo](https://imgur.com/vFkxe7L.gif)
+
 -  **React Component Templates:** Quickly create boilerplate code for new components. Specify multiple component names separated by spaces to generate several components at once.
 -  **Context File Templates:** Streamline the creation of context files for React.
 -  **Folder and File Generators:** Easily generate multiple folders and files with predefined structures by providing names separated by spaces.
