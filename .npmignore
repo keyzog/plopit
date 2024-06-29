@@ -1,2 +1,6 @@
-node_modules
-src
+.gitignore
+
+node_modules/
+src/
+vite.config.js
+tsconfig.json

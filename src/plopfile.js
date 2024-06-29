@@ -1,9 +1,9 @@
-import { folderPathHelper } from "./src/helpers";
+import { folderPathHelper } from "./helpers";
 import {
 	componentGenerator,
 	contextGenerator,
 	foldersGenerator,
-} from "./src/generators";
+} from "./generators";
 
 export default function (
 	/** @type {import('plop').NodePlopAPI} */

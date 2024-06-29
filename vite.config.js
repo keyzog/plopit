@@ -21,7 +21,7 @@ export default defineConfig({
 		lib: {
 			entry: {
 				index: resolve(__dirname, "src/index.ts"),
-				plopfile: resolve(__dirname, "plopfile.js"),
+				plopfile: resolve(__dirname, "src/plopfile.js"),
 				"bin/global": resolve(__dirname, "src/bin/index.ts"),
 			},
 			name: "plopit",
