@@ -16,9 +16,9 @@ export const getConfig = (): PlopConfig => {
 
 	if (fs.existsSync(packageJsonPath)) {
 		const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, "utf8"));
-		if (packageJson.plopToolkit) {
-			Object.keys(packageJson.plopToolkit).forEach((key) => {
-				const value = packageJson.plopToolkit[key];
+		if (packageJson.plopit) {
+			Object.keys(packageJson.plopit).forEach((key) => {
+				const value = packageJson.plopit[key];
 
 				if ((defaultConfig as any)[key] !== undefined) {
 					(defaultConfig as any)[key] = value;
